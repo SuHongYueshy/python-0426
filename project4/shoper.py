@@ -7,8 +7,8 @@ ps = '''
 '''
 
 # 打开两个文件，f文件为原来存取商品文件,f_new文件为修改后的商品文件
-f = open('commodit', 'r', encoding='UTF-8')
-f_new = open('commodit_update', 'w+', encoding='UTF-8')
+f = open('commodit', 'r', encoding='utf-8')
+f_new = open('commodit_update', 'w+', encoding='utf-8')
 file_list = f.readlines()
 
 # 打印商品信息
